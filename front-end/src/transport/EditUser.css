@@ -1,0 +1,32 @@
+.edit-user-page {
+    padding: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #01691b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #095802;
+}
+

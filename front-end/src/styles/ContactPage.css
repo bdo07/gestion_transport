@@ -1,0 +1,61 @@
+/* تأكد من تغيير اسم الملف إلى ContactPage.css */
+.contact-page-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-page-title {
+    color: #2c3e50;
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.contact-page-description {
+    color: #34495e;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.contact-page-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-page-item {
+    background-color: #f8f9fa;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: #2c3e50;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-page-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contact-page-item::before {
+    content: "✉️";
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.contact-page-item:nth-child(2)::before {
+    content: "📞";
+}
+
+.contact-page-item:nth-child(3)::before {
+    content: "📍";
+}

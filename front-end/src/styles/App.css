@@ -1,0 +1,50 @@
+/* تنسيق الـ navbar */
+.navbar {
+    display: flex;
+    align-items: center; /* محاذاة العناصر عمودياً في الوسط */
+    justify-content: space-between; /* الشعار على اليسار، الروابط في الوسط، الأزرار على اليمين */
+    padding: 10px 20px;
+    background-color: #020202;
+}
+
+
+/* تنسيق الشعار */
+.logo img {
+    height: 70px; /* تعديل ارتفاع الشعار حسب الحاجة */
+    width: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+}
+
+/* تنسيق روابط التنقل */
+.nav-links {
+    display: flex;
+    gap: 20px; /* المسافة بين الروابط */
+}
+
+.nav-links a {
+    color: white; /* لون النص */
+    text-decoration: none; /* إزالة الخط التحتي */
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #ccc; /* لون النص عند التمرير */
+}
+
+/* تنسيق زر الترجمة */
+.language-switcher {
+    display: flex;
+    gap: 10px;
+}
+
+.language-switcher button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.language-switcher button:hover {
+    background-color: #666;
+}
